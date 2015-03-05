@@ -1,0 +1,47 @@
+/* Promptly Specific CSS */
+body {
+	background-image: url(../img/landing_background_optimized.jpg);
+	background-color: #789FD3;
+}
+.public-portal{
+	margin-top: 5em;
+}
+.public-portal h1{
+	font-size: 3.25em;
+	line-height: 1.2;
+	font-weight: 900;
+}
+.public-portal .drk{
+	text-shadow: 0px 0px 125px #fff;
+}
+.public-portal p{
+	font-size: 1.1em;
+}
+.jurisdiction h4{
+	font-weight: bold;
+}
+.jurisdiction p{
+	margin-bottom: 0em;
+	font-style: italic;
+}
+.public-portal .landing-footer{
+	margin-top: 100px;
+}
+
+.button{
+	background: #EEA758; 
+}
+.button:hover{
+	background: #f19b3b;
+	color: #FFF;
+	border-bottom: 1px solid #E6E7E8;
+}
+
+
+/* to be added back into PostCode Style Guide */
+
+
+
+
+
+
