@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NextRequest</title>
+
+    <!-- Foundation -->
+    <link rel="stylesheet" href="css/foundation.css" />
+    <link href="css/postcode_styleguide.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+    <link href='http://pobox.herokuapp.com/css/postcode_main.css' rel='stylesheet' type='text/css'>
+    <script src="js/vendor/modernizr.js"></script>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+      <div class="row">
+        <div class="large-5 columns logo">
+          <h2><img src="http://pobox.herokuapp.com/images/recordtrac_logo_dark_gray.png">
+          <strong>NextRequest</strong></h2>
+        </div>
+      </div>  
+    <div class="public-portal">
+
+      <div class="row">
+        <div class="large-5 columns landing-title">
+          <h1 class="drk">Public<br>Records<br>Requests</h1> 
+          <h1 class="wht">Simplified.</h1><br>
+          <p>Enter a request and we'll send it to the right government contact. After that we'll email you any responses and released documents.</p>
+          <p><strong>Free for the public!</strong></p>                
+        </div>
+        <div class="large-6 large-offset-1 end columns">
+          <div class="jurisdiction">
+            <p>Jurisdiction:</p>
+            <h4>SAN FRANCISCO, CA</h4>
+          </div>  
+          <hr>
+          <label><em>What document(s) do you need?</em> <small>Required</small>
+            <textarea placeholder="Include document types, dates, and names if possible."></textarea>
+          </label> 
+            <label><em>From which department?</em>
+              <input type="text" placeholder="Take your best guess..." />
+            </label> 
+            <hr>                 
+            <label><em>Your Name</em>
+              <input type="text" placeholder="name" />
+            </label>
+            <label><em>Your email</em> <small>Required</small>
+              <input type="text" placeholder="email" />
+            </label><br>
+            <a href="#" data-reveal-id="myModal" class="button radius expand">SUBMIT REQUEST</a>
+        </div> 
+        <div id="myModal" class="reveal-modal tiny" data-reveal>
+          <h2>Thanks!</h2>
+          <p class="lead">Your request is on it's way. You should receive an email notice shortly. If you don't get in touch with us at:</p><p class="lead"><strong>requests@nextrequest.com</strong></p>
+          <a class="close-reveal-modal">&#215;</a>
+        </div>       
+      </div>
+      <div class="row landing-footer">
+          <div class="large-10 columns drk">
+            <p><em><strong><a href="http://nextrequest.com/about" target="_title">NextRequest</a></strong> makes public records requests friendlier for the public and easier for governments.</em></p>
+          </div>
+          <div class="large-2 columns wht">
+           <small>
+              <a href="https://www.flickr.com/photos/kevcole/4436427104" target="_title">source:flickr.com, CC by 2.0</a>
+              </small>
+          </div>
+        </div>
+      </div>     
+
+    </div>
+    
+
+
+    <!-- Foundation js -->
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+  </body>
+</html>
